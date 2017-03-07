@@ -1,3 +1,12 @@
+require 'rspec'
+require 'httparty'
+require 'spec'
+
+def url
+  "http://lacedeamon.spartaglobal.com/todos)"
+end
+
+
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
